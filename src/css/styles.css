@@ -296,3 +296,24 @@ span.psw {
   color: #fff;
   font-size: .9rem;
 }
+
+@media screen and (max-width: 1440px) {
+ #iframe {
+  width: 400px;
+ }
+}
+
+@media screen and (max-width: 1200px) {
+ #iframe {
+  width: 350px;
+ }
+}
+
+/* @media  screen and (max-width: 1024px) {
+  .features-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1em;
+  grid-row-gap: 100px;
+}
+  }  */
