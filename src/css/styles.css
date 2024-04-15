@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+  padding: 0 45px;
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.header h2 {
+  font-size: 2.0rem;
+  color: #ffcc01;
+  text-align: center;
+}
+
+.nav a {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+  color: #c5cae9;
+  /* transform: rotate(6deg); */
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.hero {
+  background-color: #ffcc01;
+  background-image: url(https://www.jagcnet.army.mil/GoArmyJAG/images/GoArmyJAG-Apply-Now.jpg);
+    background-repeat: no-repeat;
+     background-repeat: repeat-y;
+     background-position: 30px 30px;
+      background-position: center center;
+       background-position: 100% 50%;
+      height: 550px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  max-width: 760px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+}
+
+.button {
+  background-color: #3949ab;
+  color: #FFF;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
+
+.features {
+  background-color: whitesmoke;
+  padding: 60px 45px;
+}
+
+.features-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.featured-item h3 {
+  color: #283593;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.featured-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* .form-container {
+  position: relative;
+  
+} */
+
+/* form {
+position: absolute;
+top: 10%;
+bottom: 20%;
+left: 5%;
+right: 15%;
+border: 1px solid black;
+border-radius: 5px;
+width: 80%;
+} */
+
+
+
+.form-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  /* width: 100%; */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  margin-top: 20px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* End of code for the form */
+
+/* testimonal code */
+
+.test-container {
+  height: 100vh;
+  max-height: 500px;
+  max-width: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #e3f2fd; */
+ background-image: linear-gradient(to right, #DECBA4, #3E5151);
+ 
+  margin-top: 0px;
+}
+
+.testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.testimonial .image {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.slide p {
+  text-align: center;
+  padding: 0 60px;
+  font-size: 14px;
+  font-weight: 400;
+  /* color: #333; */
+  color: #fff;
+}
+
+.slide .quote-icon {
+  font-size: 30px;
+  color: #4070f4;
+}
+
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details .name {
+  font-size: 14px;
+  font-weight: 600;
+  /* color: #333; */
+  color: #fff;
+}
+
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  /* color: #333; */
+  color: #fff;
+}
+
+/* swiper button css */
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 20px;
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: gray;
+  color: #fff;
+  font-size: .9rem;
+}
