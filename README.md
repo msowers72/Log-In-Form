@@ -39,11 +39,11 @@ As a user, I can submit an online application for membership in teh U.S.ARMY'S J
 <!-- ![Tux, the Linux mascot](https://img.shields.io/badge/License-MIT-green) -->
   
  ## Deployed
- [Search-Tool](https://msowers72.github.io/Search-Tool/)
+ [Online Application](https://msowers72.github.io/Search-Tool/)
  
  
- ![images](./assets/img/01-homepage.png) 
- ![images](./assets/img/02-search-results-page.png) 
+ ![images](./src/images/Screenshot1.png) 
+ ![images](./src/images/Screenshot2.png) 
  
 
 
